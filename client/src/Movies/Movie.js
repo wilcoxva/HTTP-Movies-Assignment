@@ -60,4 +60,5 @@ function Movie(props) {
   );
 }
 
+
 export default Movie;
