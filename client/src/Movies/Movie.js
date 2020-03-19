@@ -26,7 +26,7 @@ function Movie(props) {
     axios
       .delete(`http://localhost:5000/api/movies/${id}`)
       .then(res => {
-        setMovie(res.data);
+        console.log(res);
         history.push("/");
       })
       .catch(err => {

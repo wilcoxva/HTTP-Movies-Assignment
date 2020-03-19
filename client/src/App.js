@@ -23,7 +23,7 @@ const App = (props) => {
 
   useEffect(() => {
     getMovieList();
-  }, []);
+  }, [movieList]);
 
   return (
     <>
